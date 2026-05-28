@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6fb;
+}
+
+/* CENTER EVERYTHING */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+/* CALENDAR */
+.calendar-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* SMALL TASK BOX (IMPORTANT FIX) */
+.task-box {
+  width: 380px;              /* 👈 SMALL BOX */
+  margin: auto;
+  background: white;
+  border-radius: 14px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* INPUT AREA */
+.add-box {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+input, select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+}
+
+/* TASK ROW */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 8px;
+}
+
+/* TASK TEXT */
+.task-text {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* BUTTONS */
+.btn {
+  background: #4facfe;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+.done {
+  background: #2ed573;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+.delete {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+/* PROGRESS */
+.progress-bar {
+  height: 6px;
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+}
+
+.empty {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* BUTTON GROUP */
+.btns {
+  display: flex;
+  gap: 5px;
+}
