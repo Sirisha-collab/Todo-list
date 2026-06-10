@@ -4,35 +4,24 @@ A application built with FastAPI and React. Includes task management, overdue ta
 
 **Backend Setup**
 
-
 ### Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
-Install dependencies
-pip install -r requirements.txt
-Environment Variables
+**Environment Variables**
 
-Create a .env file:
+### Create a .env file:
 
+```bash
 TODO_EMAIL=your_email@gmail.com
 TODO_PASSWORD=your_app_password
-Run Backend
+````
+
+**Run Backend**
 uvicorn main:app --reload
-Frontend Setup
-Install dependencies
-npm install
-Run Frontend
-npm start
-Email Reminder System
 
-The application automatically checks overdue tasks every minute.
+**Email Reminder System**
 
-If a task:
-
-is scheduled for today,
-is not completed,
-and no reminder was sent within the last 4 hours,
-
-an email reminder will be sent using Gmail SMTP.
+The application automatically checks overdue tasks every minute. If a task is scheduled for today, is not completed, and no reminder was sent within the last 4 hours, an email reminder will be sent using Gmail SMTP.
