@@ -17,10 +17,12 @@ pip install -r requirements.txt
 ```bash
 TODO_EMAIL=your_email@gmail.com
 TODO_PASSWORD=your_app_password
-````
+```
 
 **Run Backend**
+```bash
 uvicorn main:app --reload
+```
 
 **Email Reminder System**
 
